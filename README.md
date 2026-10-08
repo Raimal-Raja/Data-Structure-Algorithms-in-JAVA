@@ -24,13 +24,19 @@ Use a JDK and compile individual exercises separately; repeated class names may 
 javac "Task-2/Max_Min.java"
 ```
 
-The JDK was unavailable for compilation checks in this review.
+Java sources were compiled with the Eclipse compiler and a Java runtime; use a local JDK for the commands above.
 
 ### Configuration and limitations
 
+### Maintenance fixes
+
+- Repair queue construction, front inspection, instance state, and dequeue loop.
+- Repair the stack exercise’s duplicate class, input handling, stored values, and pop behavior.
+- Queue FIFO output and stack push/display/pop behavior passed execution checks.
+
 ### Validation
 
-Reviewed on 2026-10-08. Repository structure and documentation were reviewed. No application runtime, training job, or platform-specific build was executed.
+Reviewed on 2026-10-08. All Java sources compiled successfully. Compilation alone does not establish every algorithm’s correctness.
 
 ### Contributions
 
