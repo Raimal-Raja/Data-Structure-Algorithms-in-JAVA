@@ -1,43 +1,41 @@
-## DSA using Java
+# Data-Structure-Algorithms-in-JAVA
 
-### Introduction
+Task-based Java exercises for practicing data structures, algorithms, and problem solving.
 
-This repository contains Java code implementations for various data structures and algorithms. It serves as a comprehensive resource for learning and practicing data structures and algorithms (DSA) using the Java programming language.
+## Repository guide
 
-### Installation
+### Contents
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/dsa-java.git
-   ```
-   Replace `your-username` with your actual GitHub username.
+- [README.md](README.md)
+- [Task-1](Task-1)
+- [Task-2](Task-2)
+- [Task-3](Task-3)
 
-2. **Set up your Java environment:**
-   Ensure you have Java Development Kit (JDK) installed on your system. You can download it from [https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/).
+### Getting started
 
-### Usage
+```bash
+git clone https://github.com/Raimal-Raja/Data-Structure-Algorithms-in-JAVA.git
+cd Data-Structure-Algorithms-in-JAVA
+```
 
-1. **Explore the code:**
-   The repository is organized into different directories or packages, each containing implementations for specific data structures or algorithms.
+Use a JDK and compile individual exercises separately; repeated class names may appear across folders. Example:
 
-2. **Run examples:**
-   Most examples will include a `main` method that you can run directly to test the implementation.
+```bash
+javac "Task-2/Max_Min.java"
+```
 
-3. **Modify and experiment:**
-   Feel free to modify the code, experiment with different input values, and explore variations of the algorithms.
+The JDK was unavailable for compilation checks in this review.
 
-### Source Links
+### Configuration and limitations
 
-* **Official Java Documentation:** [https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html)
-* **GeeksforGeeks:** [https://www.geeksforgeeks.org/](https://www.geeksforgeeks.org/)
-* **LeetCode:** [https://leetcode.com/](https://leetcode.com/)
-* **HackerRank:** [https://www.hackerrank.com/](https://www.hackerrank.com/)
-* **Codeforces:** [https://codeforces.com/](https://codeforces.com/)
+### Validation
 
-### Contributing
+Reviewed on 2026-10-08. Repository structure and documentation were reviewed. No application runtime, training job, or platform-specific build was executed.
 
-Contributions are welcome! If you have improvements, bug fixes, or new implementations, please feel free to submit a pull request.
+### Contributions
+
+Describe the issue, reproduction steps, environment, and expected behavior when proposing a change. Keep generated environments, credentials, and unnecessary build artifacts out of new commits.
 
 ### License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+No top-level license file was found during this review.
