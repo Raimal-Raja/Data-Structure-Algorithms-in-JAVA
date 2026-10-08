@@ -1,9 +1,9 @@
 public class QueueY {
     static class Queue {
 
-        static int arry[];
-        static int size;
-        static int rear = -1;
+        int arry[];
+        int size;
+        int rear = -1;
 
         Queue(int n) {
             arry = new int[n];
@@ -11,12 +11,16 @@ public class QueueY {
 
         }
 
-        public static boolean isEmpty() {
+        public boolean isEmpty() {
             return rear == -1;
         }
 
+        public int peek() {
+            return isEmpty() ? -1 : arry[0];
+        }
+
         //enqueue
-        public static void add(int data){
+        public void add(int data){
             if (rear ==size-1){
                 System.out.println("full queue");
                 return;
@@ -26,7 +30,7 @@ public class QueueY {
             arry[rear] =data;
         }
         //dequeue
-        public static int remove(){
+        public int remove(){
             if(isEmpty()){
                 System.out.println("empty queue");
              return -1;   
@@ -41,11 +45,11 @@ public class QueueY {
        
     }
     public static void main(String[] args) {
-        Queue q =  new Queue();
+        Queue q = new Queue(3);
         q.add(1);
         q.add(2);
         q.add(3);
-        while (q.isEmpty()) {
+        while (!q.isEmpty()) {
             System.out.println(q.peek());
             q.remove();
         }
