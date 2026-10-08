@@ -2,11 +2,10 @@
 
 Task-based Java exercises for practicing data structures, algorithms, and problem solving.
 
-## Repository guide
+## Setup and repository reference
 
-### Contents
+### Project structure
 
-- [README.md](README.md)
 - [Task-1](Task-1)
 - [Task-2](Task-2)
 - [Task-3](Task-3)
@@ -28,6 +27,8 @@ Java sources were compiled with the Eclipse compiler and a Java runtime; use a l
 
 ### Configuration and limitations
 
+Use a local JDK and compile one task at a time. Some tasks reuse class names, so compiling the entire collection together is not supported.
+
 ### Maintenance fixes
 
 - Repair queue construction, front inspection, instance state, and dequeue loop.
@@ -36,7 +37,11 @@ Java sources were compiled with the Eclipse compiler and a Java runtime; use a l
 
 ### Validation
 
-Reviewed on 2026-10-08. All Java sources compiled successfully. Compilation alone does not establish every algorithm’s correctness.
+Audit: 2026-10-08. Repository structure, setup instructions and description were reviewed. Syntax checks do not establish full runtime correctness. External APIs, live scraping, GUI interaction, notebook training and production deployment were not comprehensively exercised.
+
+### Repository description
+
+The short GitHub description is provided in [REPOSITORY_DESCRIPTION.md](REPOSITORY_DESCRIPTION.md).
 
 ### Contributions
 
